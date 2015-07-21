@@ -1,0 +1,6 @@
+<launch>
+    
+    <node name="image_process" pkg="baxter_grip" type="image_process" respawn="false" output="screen">
+         <param name="Recognition_kind" type="string"  value="Pear"/>
+    </node>
+</launch>

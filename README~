@@ -1,0 +1,28 @@
+This document includs:
+1. using ar_pose package to calibrate kinect
+2. Demo of baxter grip with kinect.
+
+If you have any question, you can contact us.The following is our email.
+
+meikunding@outlook.com  meikunding
+chenling34401@gmail.com  lingchen
+
+=================================================================
+Part I
+=================================================================
+download ar_tools package
+using ar_pose to calibrate kinect 
+
+after finish the calibration
+update float RTarray[] (4x4 matrix from kinect to baxter) in the image_process.cpp
+
+========================================================
+Part II
+=======================================================
+roslaunch baxter_grip image_process.launch
+rosrun baxter_grip baxter_move.py
+
+
+
+
+
