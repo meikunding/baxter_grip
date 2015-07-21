@@ -1,7 +1,7 @@
 This demo is using color to recognize object and you can change the value(color H S V).
 After find the object ,the baxter will move to coordinate of object.
 
-Includs:
+Includes:
 1. using ar_pose package to calibrate kinect
 2. Demo of baxter grip with kinect.
 
